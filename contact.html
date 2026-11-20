@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Feedback</title>
+</head>
+<body>
+    <header>
+        <h1>📬 Share Your Feedback</h1>
+        <p>We'd love to hear from you!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">← Back to Home</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Send us a message</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="fullname">Full Name: <span style="color:red;">*</span></label><br>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address: <span style="color:red;">*</span></label><br>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                <br>
+                <div>
+                    <label for="rating">How would you rate our website?</label><br>
+                    <select id="rating" name="rating">
+                        <option value="">-- Select a rating --</option>
+                        <option value="5">⭐⭐⭐⭐⭐ — Excellent</option>
+                        <option value="4">⭐⭐⭐⭐ — Good</option>
+                        <option value="3">⭐⭐⭐ — Average</option>
+                        <option value="2">⭐⭐ — Needs Improvement</option>
+                        <option value="1">⭐ — Poor</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Which recipe did you like best?</label><br>
+                    <input type="radio" id="r1" name="favorite" value="lasagna">
+                    <label for="r1">Lasagna</label><br>
+                    <input type="radio" id="r2" name="favorite" value="adobo">
+                    <label for="r2">Chicken Adobo</label><br>
+                    <input type="radio" id="r3" name="favorite" value="friedrice">
+                    <label for="r3">Fried Rice</label>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Your Message / Suggestions:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Tell us what you think..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe me for future recipe updates!</label>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">📨 Submit Feedback</button>
+                    <button type="reset">🔄 Clear Form</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Odin Recipes | Created by Juliël Emmanuel M. Negros</p>
+    </footer>
+</body>
+</html>
